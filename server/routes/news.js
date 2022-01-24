@@ -25,3 +25,8 @@ app.get('/', ( req, res ) => {
             });
         })
 })
+
+// app.use('https://hn.algolia.com/api/v1/search_by_date?query=nodejs');
+
+module.exports = app;
+
